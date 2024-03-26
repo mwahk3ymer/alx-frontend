@@ -54,19 +54,29 @@ html {
   }
   
   a[href] {
-    color: var(--text-color);
-    text-decoration: none;
-  }
-  
-  a[href]:visited {
+    /* Add your styles here */
     font-style: italic;
   }
   
+  /* Target visited state for the link */
+  a[href]:visited {
+    /* Add your styles here */
+  }
+  
+  /* Target hover state for the link */
   a[href]:hover {
+    /* Add your styles here */
     text-decoration: underline;
   }
   
+  /* Target active state for the link */
   a[href]:active {
+    /* Add your styles here */
+  }
+  
+  /* Set the background color with the variable color-light-grey */
+  a[href] {
+    /* Add your styles here */
     background-color: var(--color-light-grey);
   }
   
