@@ -75,7 +75,7 @@ html {
   }
   
   /* Set the background color with the variable color-light-grey */
-  a[href] {
+  a[href]:hover {
     /* Add your styles here */
     background-color: var(--color-light-grey);
   }
