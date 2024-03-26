@@ -53,14 +53,15 @@ html {
     font-weight: var(--font-weight-bold);
   }
   
-  a[href] {
+  a[href]:link {
     /* Add your styles here */
-    font-style: italic;
+    color: var(--text-color);
+  text-decoration: none;
   }
   
   /* Target visited state for the link */
   a[href]:visited {
-    /* Add your styles here */
+    font-style: italic;
   }
   
   /* Target hover state for the link */
@@ -71,7 +72,7 @@ html {
   
   /* Target active state for the link */
   a[href]:active {
-    /* Add your styles here */
+    background-color: var(--color-light-grey);
   }
   
   /* Set the background color with the variable color-light-grey */
