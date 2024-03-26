@@ -53,31 +53,20 @@ html {
     font-weight: var(--font-weight-bold);
   }
   
-  a[href]:link {
-    /* Add your styles here */
+  a:link {
     color: var(--text-color);
-  text-decoration: none;
+    text-decoration: none;
   }
   
-  /* Target visited state for the link */
-  a[href]:visited {
+  a:visited {
     font-style: italic;
   }
   
-  /* Target hover state for the link */
-  a[href]:hover {
-    /* Add your styles here */
+  a:hover {
     text-decoration: underline;
   }
   
-  /* Target active state for the link */
-  a[href]:active {
-    background-color: var(--color-light-grey);
-  }
-  
-  /* Set the background color with the variable color-light-grey */
-  a[href]:hover {
-    /* Add your styles here */
+  a:active {
     background-color: var(--color-light-grey);
   }
   
