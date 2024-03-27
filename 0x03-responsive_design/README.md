@@ -1,2 +1,1 @@
-alx frontend
-0x03-responsive_design
+## 0x03. Responsive design
